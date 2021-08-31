@@ -1,0 +1,5 @@
+Bộ lọc trung bình trên miền pixel với mặt nạ lọc như vậy các điểm ảnh sau khi lọc sẽ tập trung vào trọng số trung tâm 
+hơn là giá trị trung bình của vùng lân cận xung quanh. Với thuật toán lọc trung bình, chúng ta vẫn sẽ lọc được nhiễu và giữ được độ chi tiết của ảnh gốc.
+
+Do sau khi FFT, hình ảnh ban đầu cũng có dạng hình chuông tương tự sẽ không làm giảm chất lượng của ảnh gốc và có thể lọc được nhiễu.
+Nếu cũng sử dụng phương pháp Gaus cùng mặt nạ lọc trên miền pixel sẽ làm giảm chất lượng của ảnh.

@@ -1,0 +1,12 @@
+# Ringing effect
+## Description
+Ringing effect known as Gibbs phenomenon in mathematical methods of image processing is the annoying effect in images and video appeared as rippling artifact near sharp edges.
+It appears after filter (in bolt low pass and high pass) with high cutting level.
+
+In the figure above, ringing effect appears after low pass filter and high pass filter with 10%.
+
+## The reason of ringing effect
+A signal being bandlimited (not having high frequencies) or passed through a low-pass filter;
+
+## Solution of ringing effect
+Using Gaussian window for filter to replace the rectangle filter.
